@@ -193,7 +193,6 @@ module.exports = function () {
             });
 
             let defaultOptions = {
-                cacheDirectory: true,
                 presets: [
                     ['env', {
                         'modules': false,
