@@ -58,7 +58,7 @@ class FileCollection {
      */
     babelify(contents) {
         return babel.transform(
-            contents, { presets: ['env'] }
+            contents, Config.babel()
         ).code;
     }
 
